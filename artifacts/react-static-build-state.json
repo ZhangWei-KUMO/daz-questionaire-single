@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/zhangwei/Desktop/daz-questionaire-single/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/zhangwei/Desktop/daz-questionaire-single/src/pages"
+      }
+    ],
+    "/Users/zhangwei/Desktop/daz-questionaire-single/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/zhangwei/Desktop/daz-questionaire-single/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/zhangwei/Desktop/daz-questionaire-single"
+  ],
+  "paths": {
+    "ROOT": "/Users/zhangwei/Desktop/daz-questionaire-single",
+    "SRC": "/Users/zhangwei/Desktop/daz-questionaire-single/src",
+    "DIST": "/Users/zhangwei/Desktop/daz-questionaire-single/dist",
+    "ASSETS": "/Users/zhangwei/Desktop/daz-questionaire-single/dist",
+    "PLUGINS": "/Users/zhangwei/Desktop/daz-questionaire-single/plugins",
+    "TEMP": "/Users/zhangwei/Desktop/daz-questionaire-single/tmp",
+    "ARTIFACTS": "/Users/zhangwei/Desktop/daz-questionaire-single/artifacts",
+    "PUBLIC": "/Users/zhangwei/Desktop/daz-questionaire-single/public",
+    "NODE_MODULES": "/Users/zhangwei/Desktop/daz-questionaire-single/node_modules",
+    "EXCLUDE_MODULES": "/Users/zhangwei/Desktop/daz-questionaire-single/node_modules",
+    "PACKAGE": "/Users/zhangwei/Desktop/daz-questionaire-single/package.json",
+    "HTML_TEMPLATE": "/Users/zhangwei/Desktop/daz-questionaire-single/dist/index.html",
+    "STATIC_DATA": "/Users/zhangwei/Desktop/daz-questionaire-single/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
