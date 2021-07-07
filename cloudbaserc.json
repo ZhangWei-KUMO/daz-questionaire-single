@@ -6,7 +6,7 @@
     "functions": [],
     "region": "ap-shanghai",
     "framework": {
-        "name": "frrwr3",
+        "name": "react",
         "plugins": {
             "react": {
                 "use": "@cloudbase/framework-plugin-website",
